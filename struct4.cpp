@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 struct DetailAlamat {
@@ -13,7 +14,7 @@ struct Mahasiswa {
     int umur;
 };
 
-int Main () {
+int main () {
     Mahasiswa mhs[3];
     for (int i = 0; i < 3; i++) {
         cout << "Data Mahasiswa Ke- " << (i+1) << ":" << endl;
