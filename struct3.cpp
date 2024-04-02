@@ -30,7 +30,7 @@ int main () {
     cin >> mhs.umur;
 
     cout << endl;
-    cout << "\n NIM = " << mhs.NIM;
+    cout << "\n Nama Mahasiswa = " << mhs.NIM;
     cout << "\n Nama = " << mhs.nama;
     cout << "\n Alamat = ";
     cout << "\n Desa = " << mhs.alamat.desa;
